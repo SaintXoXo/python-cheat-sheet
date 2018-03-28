@@ -49,14 +49,14 @@ NumPy is probably your best friend for that. Check out my CheatSheet [here](http
 
 | Operator    | Description     | Documentation |
 | :------------- | :------------- | :----------- |
-| `fig = plt.figures()`      | a container that contains all plot elements | [link](http://matplotlib.org/api/figure_api.html) |
+| `fig = plt.figure()`      | a container that contains all plot elements | [link](http://matplotlib.org/api/figure_api.html) |
 
 *Axes* <a name="axes"></a>
 
 | Operator    | Description     | Documentation |
 | :------------- | :------------- | :----------- |
 | `fig.add_axes()`<br/>`a = fig.add_subplot(222)` |Initializes subplot <br/> A subplot is an axes on a grid system <br/> row-col-num, see [examples](#examples) | [link](http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure.add_axes) <br/> [link](http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure)|
-| `fig, b = plt.subplots(nrows=3, nclos=2)`|Adds subplot| [link](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.subplot)|
+| `fig, b = plt.subplots(nrows=3, ncols=2)`|Adds subplot| [link](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.subplot)|
 |`ax = plt.subplots(2, 2)`|Creates subplot|[link](http://matplotlib.org/api/pyplot_api.html?highlight=subplots#matplotlib.pyplot.subplots)|
 
 Axes are very useful for subplots. See example [here](#axes)
